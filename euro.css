@@ -1,0 +1,173 @@
+/* Body Styling */
+body {
+    font-family: 'Secular One', sans-serif;
+    font-weight: 700;
+    background-color: rgb(246, 243, 243);
+}
+
+/* Banner Item Styling */
+
+.banner-items {
+    display: flex;
+    background-color: rgb(40, 40, 145);
+    padding-right: 80px;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.banner-text {
+    padding-left: 55px;
+    padding-top: 55px;
+
+}
+
+.banner-title {
+    font-size: 4em;
+    color: white;
+
+}
+
+.banner-text a {
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    padding: 12px 50px;
+}
+
+.vanue-image {
+    width: 100%;
+}
+
+.vanue-image img {
+    width: 100%;
+}
+
+.vanue {
+    padding: 15px;
+}
+
+/* Player Item Styling */
+
+.player {
+    background-color: white;
+}
+
+.player-photo img {
+    width: 95%;
+    padding: 8px;
+
+}
+
+.player-name {
+    text-align: justify;
+    padding: 8px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-content: center;
+    margin-bottom: 165px;
+}
+
+/* Highlights Item Styling */
+
+.match-highlights {
+    display: flex;
+    justify-content: center;
+    gap: 69px;
+    margin-bottom: 0;
+    padding: 50px 0;
+    align-items: center;
+}
+
+.ggg {
+    max-width: 240px;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+
+.ggg img {
+    width: 100%;
+}
+
+.highlight-text {
+    width: 100%;
+    height: 309px;
+    padding-top: 30px;
+    text-align: justify;
+}
+
+.highlight-text a {
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    padding: 12px 50px;
+}
+
+.highlight-text h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* Vanue Item Styling */
+.vanue-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.vanue {
+    width: 100%;
+
+}
+
+.stadium {
+    position: relative;
+}
+
+.stadium-detail {
+    position: absolute;
+    top: 0;
+    display: none;
+    color: white;
+}
+
+.stadium:hover .stadium-detail {
+    display: block;
+    background-color: rgba(78, 66, 45, 0.719);
+}
+
+.highlight-banner {
+    width: 100%;
+}
+
+.highlight-banner img {
+    width: 100%;
+}
+
+.footer-img {
+    text-align: center;
+}
+
+.footer-img img {
+
+    margin-bottom: 40px;
+}
+
+
+.venue-title {
+    text-align: center;
+    font-size: 2em;
+}
+
+.banner-photo {
+    width: 100%;
+}
+
+.banner-photo img {
+    width: 100%;
+}

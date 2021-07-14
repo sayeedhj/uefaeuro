@@ -1,0 +1,156 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .players {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 0;
+        padding: 50px 0;
+    }
+
+
+
+
+    .banner-title {
+        font-size: 2.5em;
+    }
+
+    .banner-items {
+        display: flex;
+        flex-direction: column;
+        padding-right: 0;
+    }
+
+    .banner-text {
+        padding-left: 0;
+        padding-top: 55px;
+        padding: 0 15px;
+        margin-bottom: 50px;
+    }
+
+    .vanue-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .vanue {
+        margin-bottom: 15px;
+    }
+
+    .vanue-image {
+        width: 100%;
+    }
+
+    .vanue-image img {
+        width: 100%;
+    }
+
+    .footer-img {}
+
+    .match-highlights {
+        display: none;
+    }
+
+    .match-highlights {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .ggg {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .ggg img {
+        width: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .banner-items {
+        display: flex;
+        flex-direction: column;
+        padding-right: 0;
+    }
+
+    .banner-text {
+        padding-left: 0;
+        padding-top: 55px;
+        padding: 0 15px;
+        margin-bottom: 50px;
+    }
+
+    .ggg {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .vanue-image {
+        width: 100%;
+    }
+
+    .vanue-image img {
+        width: 100%;
+    }
+
+    .ggg img {
+        width: 100%;
+    }
+
+    .players {
+        /* display: flex; */
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+        padding: 30px 0;
+    }
+
+    .banner-title {
+        font-size: 2.5em;
+    }
+
+    .match-highlights {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .highlight-text {
+        height: 309px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .vanue-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .vanue-image {
+        width: 100%;
+    }
+
+    .vanue-image img {
+        width: 100%;
+    }
+
+    footer {
+        display: block;
+    }
+
+    .footer-img {
+        display: block;
+    }
+
+    .vanue {
+        margin-bottom: 15px;
+    }
+}
